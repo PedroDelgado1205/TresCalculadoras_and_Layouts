@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="Calculadora"
+        android:textAlignment="center"
+        android:textColor="@color/f"
+         />
+
+    <Button
+        android:id="@+id/Btn2N"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="25sp"
+        android:text="Calculadora de dos números"
+        android:backgroundTint="@color/p"
+        android:textColor="@color/f"
+         />
+
+    <Button
+        android:id="@+id/BtnFac"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="25sp"
+        android:text="Calculadora factorial"
+        android:backgroundTint="@color/s"
+        android:textColor="@color/c"
+         />
+
+    <Button
+        android:id="@+id/BtnIMC"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="25sp"
+        android:text="Calculadora IMC"
+        android:backgroundTint="@color/t"
+        android:textColor="@color/f"
+       />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="30dp"
+        android:layout_margin="0dp"
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp">
+
+        <Button
+            android:id="@+id/btnLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1BCC79"
+            android:text="linearLayout"
+
+            app:cornerRadius="2dp" />
+
+        <Button
+            android:id="@+id/btnFrame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFB300"
+            android:text="frameLayout"
+
+            app:cornerRadius="2dp" />
+
+        <Button
+            android:id="@+id/btnConstraint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="constraintLayout"
+
+            app:cornerRadius="2dp" />
+    </LinearLayout>
+</LinearLayout>
